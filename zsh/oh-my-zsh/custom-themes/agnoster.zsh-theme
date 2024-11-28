@@ -94,7 +94,7 @@ prompt_context() {
 }
 
 prompt_date_time() {
-  prompt_segment green black "$(date +%d.%m.%y) $(date +%H:%M)"
+  prompt_segment green black "$(date +%d.%m.%Y) $(date +%H:%M)"
 }
 
 # Git: branch/detached head, dirty status
